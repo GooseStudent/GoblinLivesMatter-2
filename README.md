@@ -1,0 +1,1 @@
+[![Node.js CI](https://github.com/GooseStudent/GoblinLivesMatter/actions/workflows/ci.yml/badge.svg)](https://github.com/GooseStudent/GoblinLivesMatter/actions/workflows/ci.yml)
