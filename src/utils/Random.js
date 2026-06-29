@@ -1,3 +1,5 @@
+import { gameConfig } from "../config";
+
 export class Random {
   static getInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -9,7 +11,7 @@ export class Random {
     do {
       position = Random.getInt(0, totalCells - 1);
       attempts++;
-    } while (position === exclude && attempts < 100);
+    } while (position === exclude && attempts < gameConfig.max_generation_attempts);
     return position;
   }
 }

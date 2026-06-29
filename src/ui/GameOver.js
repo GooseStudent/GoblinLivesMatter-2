@@ -47,7 +47,7 @@ export class GameOver {
     `;
     
     this.fieldElement.style.position = 'relative';
-    this.fieldElement.appendChild(this.messageElement);
+    this.fieldElement.append(this.messageElement);
   }
 
   hide() {
